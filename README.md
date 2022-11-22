@@ -10,7 +10,7 @@ ResNet14 is a variant of ResNet18. It removes layer 14 to 17 of ResNet18.
 # To train from the beginning, start with:
 python main.py
 
-# When the test accuracy gets stuck, use ctrl+c to pause the training and resume it with:
+# When the test accuracy gets stuck (not improving after several epochs), use ctrl+c to pause the training and resume it with:
 python main.py --resume --lr=0.01
 
 # Whenever the test accuracy is stuck, pause and resume with last learning rate divided by 10:
